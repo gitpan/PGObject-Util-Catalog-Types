@@ -25,17 +25,23 @@
             "Test::More" : "0"
          }
       },
-      "configure" : {
-         "requires" : {
-            "ExtUtils::MakeMaker" : "0"
-         }
-      },
       "runtime" : {
          "requires" : {
-            "perl" : "5.006"
+            "Carp" : "0",
+            "DBI" : "0",
+            "Exporter" : "0",
+            "Memoize" : "0",
+            "perl" : "5.008"
          }
       }
    },
    "release_status" : "stable",
-   "version" : "0.01"
+   "resources" : {
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/ledgersmb/PGObject-Util-Catalog-Types.git",
+         "web" : "https://github.com/ledgersmb/PGObject-Util-Catalog-Types"
+      }
+   },
+   "version" : "0.02"
 }
